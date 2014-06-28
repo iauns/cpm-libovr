@@ -50,5 +50,5 @@ file(GLOB Sources
 # Setup executable
 
 add_executable(ovr_test ${Sources})
-target_link_libraries(ovr_test ${CPM_LIBRARIES} ${PTHREADS})
+target_link_libraries(ovr_test ${CPM_LIBRARIES} ${PTHREADS} ${OVR_LIBRARIES})
 

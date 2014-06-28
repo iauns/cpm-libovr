@@ -41,7 +41,7 @@ set(REPO_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/3rdParty/OculusSDK")
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${REPO_SOURCE_DIR}
   GIT_REPOSITORY "https://github.com/jherico/OculusSDK.git"
-  GIT_TAG "edf1c772a4a344354cc4813ecbbc97d129b7e24a"
+  GIT_TAG "8de9c2c20b7b3d2a97697c2312d247fb25893095"
   USE_CACHING TRUE
   )
 
