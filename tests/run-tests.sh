@@ -9,7 +9,7 @@ fi
 set -e
 
 pushd ./bin > /dev/null
-  cmake ..
+  cmake -DCMAKE_BUILD_TYPE=Debug ..
   VERBOSE=1 make
 popd
 
